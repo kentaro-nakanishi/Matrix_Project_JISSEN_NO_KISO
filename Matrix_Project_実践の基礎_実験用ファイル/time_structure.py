@@ -123,7 +123,7 @@ class Path:
 
         if bool_pattern == 0:##org_treeにて、縮約番号の指示を出す
 
-            return False  #深度の偶奇で縮約、非縮約を分ける
+            return False
 
 
 
@@ -134,12 +134,12 @@ class Path:
 
         if bool_pattern == 1:#2-変換代数のleft_treeにて、縮約番号の指示を出す
             dim_pattern
-            return True#深度の偶奇で縮約、非縮約を分ける
+            return True
 
 
         if bool_pattern == 2:#2-変換代数のright_treeにて、縮約番号の指示を出す
             dim_pattern
-            return True#深度の偶奇で縮約、非縮約を分ける
+            return True
 
 
         if bool_pattern == 3:#make_brotherのmatching_patternの検索。
