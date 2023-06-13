@@ -164,8 +164,8 @@ class Path:
         '''
         D = len(self.adress)
 
-        U_Tree = (self.adress + [0]*len_U)[:len_U]
-        R_Tree = (self.adress[::-1] + [0]*len_R)[:len_R]
+        U_Tree = (self.adress + [0]*len_U)[:len_U][::-1]
+        R_Tree = (self.adress[::-1] + [0]*len_R)[:len_R][::-1]
 
 
         U,R = 0,0
